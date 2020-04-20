@@ -60,6 +60,7 @@ namespace TextAdventureConsole
             string ring = "mysteriously inscribed ring";
             AddToRucksack(rucksack, ring);
             Console.WriteLine("*You check what's inside your rucksack before you start your quest*");
+            Console.WriteLine();
             CheckRucksack(rucksack);
             PauseConsole();
             #endregion
